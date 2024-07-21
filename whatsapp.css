@@ -10,8 +10,8 @@
 body {
     display: flex;
     width: 100%;
-    margin: 0 0 0 1.3%;
-    padding-top: 1.3%;
+    margin: 10px;
+    
     background-color: #0c1317;
 }
 
@@ -29,9 +29,9 @@ body {
     width: 30%;
     height: 100vh;
     border: 0;
-    border-right: 0.05px;
+    border-right: 0.5px;
     border-style: solid;
-    border-color: rgba(174,186,193, 0.1);
+    border-color: rgba(174,186,193, 0.2);
 }
 
 .head-box {
@@ -120,7 +120,7 @@ input:focus {
 
 #RHS {
     width: 70%;
-    /* height: 100vh; */
+    height: 100vh;
     background-color: #222e35;
 }
 
@@ -142,7 +142,46 @@ input:focus {
 
 .store {
     margin: 32px 0 0;
-
-    border-radius: ;
+    height: 35px;
+    width: 200px;
+    border-radius: 30px;
     background-color: #00a884;
+    border: 0;
+
+    div {
+        font-weight: 550;
+        color: #111b21;
+    }
+}
+
+button:hover {
+    background-color: #06cf9c;
+}
+
+.encrypt {
+    margin-top: 150px
+}
+
+
+
+
+.chats img {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin: 10px 0 0 10px;
+}
+
+.chat1, .chat2, .chat3, .chat4, .chat5, .chat6, .chat7 {
+    display: flex;
+    align-items: center;
+    border: 0;
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: rgba(174, 186, 193, 0.2);
+    /* margin: 10px 0; */
+
+    div {
+        margin: 4px;
+    }
 }
