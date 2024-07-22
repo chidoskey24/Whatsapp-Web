@@ -12,8 +12,12 @@ body {
     display: flex;
     width: 100%;
     margin: 10px;
-    
+    height: 100vh;
     background-color: #0c1317;
+}
+
+#body {
+    height: 100px;
 }
 
 .top {
@@ -28,10 +32,15 @@ body {
 .left-box {
     background-color: #111b21;
     width: 30%;
+    height: 100vh;
     border: 0;
     border-right: 0.5px;
     border-style: solid;
     border-color: rgba(174,186,193, 0.2);
+
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
 
 .head-box {
@@ -121,6 +130,8 @@ input:focus {
 #RHS {
     width: 70%;
     background-color: #222e35;
+    height: 100vh;
+    padding: 10px;
 }
 
 .page {
@@ -243,4 +254,9 @@ button:hover {
     padding: 3px;
     font-size: small;
     }
+}
+
+.chats {
+    flex: 1;
+    overflow-y: auto;
 }
