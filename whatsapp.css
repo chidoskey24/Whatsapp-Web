@@ -19,7 +19,7 @@ body {
     height: 100px;
 }
 
-.top {
+.top { 
     /* position: fixed; */
     border: 0;
     border-bottom: 1px;
@@ -260,10 +260,10 @@ button:hover {
     scrollbar-color: #374045 #111b21;
 }
 
-#chats::-webkit-scrollbar-track {
+/* #chats::-webkit-scrollbar-track {
     background: #111b21;
 
     &::-webkit-scrollbar-thumb {
         color: #222e35;
     }
-}
+} */
